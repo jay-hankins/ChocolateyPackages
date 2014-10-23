@@ -4,7 +4,7 @@
 # Note: Net 4.0 must be installed prior to running this script
 #
 #Modify this line to change packages
-$items = @("GoogleChrome", "Firefox", "skype", "vlc", "k-litecodecpackbasic", "flashplayerplugin", "javaruntime", "DotNet4.5", "dropbox", "jdk8", "7zip.install", "python", "eclipse-standard-luna", "notepadplusplus.install", "cyg-get default", "iTunes",  "paint.net", "picasa", "Silverlight", "spotify", "teamviewer", "FoxitReader", "putty", "winscp", "JayHankins.ConEmuConfig")
+$items = @("jdk8", "eclipse-standard-luna", "notepadplusplus.install", "cyg-get", "putty", "winscp", "wget")
 
 
 
@@ -18,5 +18,15 @@ foreach ($item in $items)
 }
 $xml += '</packages>'
 
-$file = ([system.environment]::getenvironmentvariable("userprofile") + "\packages_everybody.config")
+$file = ([system.environment]::getenvironmentvariable("userprofile") + "\packages.config")
 $xml | out-File $file
+
+######
+# Install packages with cinst
+######
+
+cinst $file
+
+
+########
+# Delete packages.config
