@@ -1,0 +1,1 @@
+@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/jay-hankins/ChocolateyPackages/master/AutoInstallers/win_autoinstall_chocolatey_feed.ps1'))
