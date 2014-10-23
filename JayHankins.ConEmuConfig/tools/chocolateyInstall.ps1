@@ -1,4 +1,4 @@
-$package = 'EthanBrown.ConEmuConfig'
+$package = 'JayHankins.ConEmuConfig'
 
 try {
 
@@ -9,7 +9,7 @@ try {
   }
 
   Push-Location (Get-CurrentDirectory)
-  reg import .\ConEmu.reg
+  Copy-Item '.\ConEmu.xml' 'C:\Program Files\ConEmu'
 
   Write-ChocolateySuccess $package
 } catch {

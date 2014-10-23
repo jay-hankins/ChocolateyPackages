@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>EthanBrown.ConEmuConfig</id>
-    <title>EthanBrown.ConEmuConfig</title>
-    <version>0.0.5</version>
-    <authors>Ethan Brown</authors>
-    <owners>Ethan Brown</owners>
-    <summary>ConEmu configured with Base16 color scheme and sane defaults.</summary>
+    <id>JayHankins.ConEmuConfig</id>
+    <title>JayHankins.ConEmuConfig</title>
+    <version>0.0.2</version>
+    <authors>Jay Hankins</authors>
+    <owners>Jay Hankins</owners>
+    <summary>ConEmu configured with Base16 color scheme and sane defaults, customized to Jay's liking..</summary>
     <description>ConEmu is a beast to configure with reasonable defaults.
 
 It is hands down the best terminal Windows has to offer, but its configuration
@@ -16,8 +16,6 @@ can make keyboard usage quite odd.
 This pkg removes the pain.
 
 Includes:
- - Use of SourceCodePro terminal font
- - One admin PowerShell tab, one non-admin PowerShell tab, one Git Bash tab
  - Uses Chris Kempson's base16 color scheme for hackers
    https://github.com/chriskempson/base16
  - Uses long console output buffer height to ensure capturing all terminal output
@@ -41,17 +39,16 @@ Includes:
 
 I'm sure there are a couple of other minor tweaks that were dialed in as well.
     </description>
-    <projectUrl>http://github.com/Iristyle/ChocolateyPackages/</projectUrl>
+    <projectUrl>http://github.com/jay-hankins/ChocolateyPackages/</projectUrl>
     <tags>conemu powershell git</tags>
     <copyright></copyright>
-    <licenseUrl>https://raw.github.com/Iristyle/ChocolateyPackages/master/LICENSE.md</licenseUrl>
+    <licenseUrl>https://raw.github.com/jay-hankins/ChocolateyPackages/master/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://github.com/Iristyle/ChocolateyPackages/raw/master/EthanBrown.ConEmuConfig/conemu_logo.png</iconUrl>
+    <iconUrl>https://github.com/jay-hankins/ChocolateyPackages/raw/master/EthanBrown.ConEmuConfig/conemu_logo.png</iconUrl>
     <dependencies>
       <dependency id="toolsroot"/>
       <dependency id="SourceCodePro" version="1.017.1"/>
       <dependency id="PowerShell" version="3.0"/>
-      <dependency id="gitextensions" version="2.46"/>
       <dependency id="ConEmu" version="13.7.8.0"/>
     </dependencies>
     <releaseNotes></releaseNotes>
