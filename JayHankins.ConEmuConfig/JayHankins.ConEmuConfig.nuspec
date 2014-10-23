@@ -3,7 +3,7 @@
   <metadata>
     <id>JayHankins.ConEmuConfig</id>
     <title>JayHankins.ConEmuConfig</title>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <authors>Jay Hankins</authors>
     <owners>Jay Hankins</owners>
     <summary>ConEmu configured with Base16 color scheme and sane defaults, customized to Jay's liking..</summary>
@@ -47,9 +47,7 @@ I'm sure there are a couple of other minor tweaks that were dialed in as well.
     <iconUrl>https://github.com/jay-hankins/ChocolateyPackages/raw/master/EthanBrown.ConEmuConfig/conemu_logo.png</iconUrl>
     <dependencies>
       <dependency id="toolsroot"/>
-      <dependency id="SourceCodePro" version="1.017.1"/>
-      <dependency id="PowerShell" version="3.0"/>
-      <dependency id="ConEmu" version="13.7.8.0"/>
+      <dependency id="ConEmu" version="14.9.23.0"/>
     </dependencies>
     <releaseNotes></releaseNotes>
   </metadata>
