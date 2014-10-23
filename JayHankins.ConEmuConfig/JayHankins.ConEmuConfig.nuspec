@@ -3,7 +3,7 @@
   <metadata>
     <id>JayHankins.ConEmuConfig</id>
     <title>JayHankins.ConEmuConfig</title>
-    <version>0.0.3</version>
+    <version>0.0.5</version>
     <authors>Jay Hankins</authors>
     <owners>Jay Hankins</owners>
     <summary>ConEmu configured with Base16 color scheme and sane defaults, customized to Jay's liking..</summary>
@@ -44,7 +44,7 @@ I'm sure there are a couple of other minor tweaks that were dialed in as well.
     <copyright></copyright>
     <licenseUrl>https://raw.github.com/jay-hankins/ChocolateyPackages/master/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://github.com/jay-hankins/ChocolateyPackages/raw/master/EthanBrown.ConEmuConfig/conemu_logo.png</iconUrl>
+    <iconUrl>https://github.com/jay-hankins/ChocolateyPackages/raw/master/JayHankins.ConEmuConfig/conemu_logo.png</iconUrl>
     <dependencies>
       <dependency id="toolsroot"/>
       <dependency id="ConEmu" version="14.9.23.0"/>

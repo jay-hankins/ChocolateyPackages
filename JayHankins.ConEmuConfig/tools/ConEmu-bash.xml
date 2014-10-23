@@ -79,7 +79,7 @@
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
 			<value name="StartTasksFile" type="string" data=""/>
-			<value name="StartTasksName" type="string" data="{Cygwin/ZSH}"/>
+			<value name="StartTasksName" type="string" data="{Cygwin/BASH}"/>
 			<value name="StartFarFolders" type="hex" data="00"/>
 			<value name="StartFarEditors" type="hex" data="00"/>
 			<value name="StoreTaskbarkTasks" type="hex" data="00"/>
@@ -527,15 +527,15 @@
 			<value name="WndDragKey" type="dword" data="00121101"/>
 				<key name="Tasks" modified="2014-10-22 15:53:16" build="140707">
 				<value name="Count" type="dword" data="00000006"/>
-						<key name="Task1" modified="2014-10-22 15:53:16" build="140707">
-					<value name="Name" type="string" data="{Cygwin/ZSH}"/>
+					<key name="Task1" modified="2014-10-22 15:53:16" build="140707">
+					<value name="Name" type="string" data="{Cygwin/BASH}"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=""/>
-					<value name="Cmd1" type="string" data="C:\bin\cygwin\bin\zsh -l -i "/>
+					<value name="Cmd1" type="string" data="C:\bin\cygwin\bin\bash -l -i "/>
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
-						<key name="Task2" modified="2014-10-22 15:53:16" build="140707">
+					<key name="Task2" modified="2014-10-22 15:53:16" build="140707">
 					<value name="Name" type="string" data="{cmd}"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=""/>
