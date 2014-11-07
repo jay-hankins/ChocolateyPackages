@@ -9,7 +9,7 @@ try {
   }
 
   Push-Location (Get-CurrentDirectory)
-  Copy-Item '.\ConEmu-bash.xml' 'C:\Program Files\ConEmu\ConEmu.xml'
+  reg import '.\ConEmu-bash.reg'
 
   Write-ChocolateySuccess $package
 } catch {

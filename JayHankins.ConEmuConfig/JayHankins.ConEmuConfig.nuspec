@@ -3,7 +3,7 @@
   <metadata>
     <id>JayHankins.ConEmuConfig</id>
     <title>JayHankins.ConEmuConfig</title>
-    <version>0.0.5</version>
+    <version>0.0.6</version>
     <authors>Jay Hankins</authors>
     <owners>Jay Hankins</owners>
     <summary>ConEmu configured with Base16 color scheme and sane defaults, customized to Jay's liking..</summary>
