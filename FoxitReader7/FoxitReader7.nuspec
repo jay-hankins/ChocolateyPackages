@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>FoxitReader7</id>
     <title>FoxitReader7</title>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <authors>Jay Hankins</authors>
     <owners>Jay Hankins</owners>
     <summary>A simple silent installer for the newest version of FoxitReader.</summary>
