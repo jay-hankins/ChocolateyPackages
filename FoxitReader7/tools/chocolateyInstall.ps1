@@ -1,0 +1,2 @@
+$package = 'FoxitReader7'
+Install-ChocolateyPackage 'FoxitReader703.0916_enu_Setup.exe' 'EXE' '/verysilent' 'http://cdn01.foxitsoftware.com/pub/foxit/reader/desktop/win/7.x/7.0/en_us/FoxitReader703.0916_enu_Setup.exe'

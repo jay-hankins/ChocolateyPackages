@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>FoxitReader7</id>
+    <title>FoxitReader7</title>
+    <version>0.0.1</version>
+    <authors>Jay Hankins</authors>
+    <owners>Jay Hankins</owners>
+    <summary>A simple silent installer for the newest version of FoxitReader.</summary>
+    <description>
+	A simple silent installer for the newest version of FoxitReader.
+    </description>
+    <projectUrl>http://github.com/jay-hankins/ChocolateyPackages/</projectUrl>
+    <tags>Foxit Reader 7 PDF</tags>
+    <copyright></copyright>
+    <licenseUrl>https://raw.github.com/jay-hankins/ChocolateyPackages/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://github.com/jay-hankins/ChocolateyPackages/raw/master/FoxitReader7/FoxitReader7_logo.png</iconUrl>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
